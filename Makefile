@@ -6,7 +6,7 @@
 #    By: nortolan <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/10/30 14:20:58 by nortolan          #+#    #+#              #
-#    Updated: 2021/11/02 12:15:03 by nortolan         ###   ########.fr        #
+#    Updated: 2021/11/11 16:44:36 by nortolan         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -18,7 +18,7 @@ SRCS = so_long.c map_maker.c moving.c utils.c
 
 OBJS = $(SRCS:%.c=%.o)
 
-PHONY. = all clean fclean re
+.PHONY = all clean fclean re
 
 all: $(NAME)
 
